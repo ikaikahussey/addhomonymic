@@ -1,12 +1,14 @@
 ---
 title: Rethinking reapportionment
-date: 2021-09-28
 author: ikaikahussey
+date: 2021-09-28
 tag:
-    - Democracy
+  - Democracy
+description: Testimony to the reapportionment commission
+tags:
+  - Tags
 ---
-
-![A 1902 map of Oahu](http://www.avakonohiki.org/uploads/1/2/5/5/12550111/oahu-island-wall-1902-reg-map.jpg)
+![]()
 
 *[Testimony to the reapportionment commission](https://www.honolulu.gov/elections/reapportionment.html)*
 
