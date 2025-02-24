@@ -1,6 +1,6 @@
 ---
 title: 'Come together'
-date: '2016-08-08T07:16:30+00:00'
+date: 2016-08-08
 status: publish
 excerpt: ''
 type: post

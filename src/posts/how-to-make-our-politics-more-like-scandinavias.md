@@ -1,6 +1,6 @@
 ---
 title: 'How to make our politics more like Scandinavia'
-date: '2016-07-18T23:15:10+00:00'
+date: 2016-07-18
 status: publish
 author: ikaikahussey
 excerpt: ''

@@ -1,13 +1,10 @@
 ---
 title: 'The Sierra Club endorses our campaign'
-date: '2018-08-09T06:32:37+00:00'
+date: 2018-08-09
 status: publish
 ---
 
-
-![23ab8529920240eeb706c5e63686de54.png](http://ikaikahussey.files.wordpress.com/2018/08/7e7ae-23ab8529920240eeb706c5e63686de54.png)
-
-It’s my pleasure to announce a major endorsement – the [Sierra Club Hawaii Chapter.](http://hello.ikaikahussey.com/t/i-l-bhrjhdy-l-y/) With 20,000 members and supporters, the Sierra Club is a leading voice for the environment.
+It’s my pleasure to announce a major endorsement – the Sierra Club Hawaii Chapter. With 20,000 members and supporters, the Sierra Club is a leading voice for the environment.
 
 **Like many parents, I’m concerned about the world our children will inherit.** My kids (ages 11, 9 and 3) are bright and inquisitive, and like most children, they’ve studied the impacts and science of climate change in school. But they don’t have the political power to make a difference. They’re counting on us, their mākua (parents) to step in and serve as their proxy.
 

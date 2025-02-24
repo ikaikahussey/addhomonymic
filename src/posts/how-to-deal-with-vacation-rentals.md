@@ -1,6 +1,6 @@
 ---
 title: 'How to deal with vacation rentals'
-date: '2018-08-01T23:15:20+00:00'
+date: 2018-08-01
 ---
 Illegal vacation rentals remove units from the local housing inventory, increasing scarcity and raising prices, and often lead to disputes within neighborhoods between long-term residents and short-term vacationers. I believe that our public policy goal should be to prioritize the use of scarce land and housing for affordable residential use first. As a distant second goal, excess housing inventory should be allowed to be allocated for vacation use, but only once the primary goal of housing is achieved.
 

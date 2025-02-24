@@ -1,6 +1,6 @@
 ---
 title: 'Controlling runaway property taxes: the Tanaka-Serikaku Tax Plan'
-date: '2018-07-22T19:09:57+00:00'
+date: 2018-07-22
 status: publish
 author: ikaikahussey
 excerpt: ''
@@ -12,7 +12,6 @@ tag: []
 post_format: []
 ---
 
-![Mr. Tanaka](http://ikaikahussey.files.wordpress.com/2018/07/70952-img_1227.jpg)
 
 The increasing cost of housing is driving up property tax bills for many local families. Mr. Tanaka, pictured here, is one of many residents who raised the issue with me: why should he, he asked, have his tax bill increased just because a nearby parcel was redeveloped or renovated? I propose that we do the following:
 

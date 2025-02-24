@@ -1,9 +1,7 @@
 ---
 title: It's time to turn climate change into an opportunity for the future of our island
-date: '2018-08-04T20:38:35+00:00'
+date: 2018-08-04
 ---
-
-![aloha tower_1930s.jpg](http://ikaikahussey.files.wordpress.com/2018/08/e77e2-alohatower_1930s.jpg)
 
 Global warming isn’t coming – it’s already [here](http://www.kitv.com/story/35511234/hawaii-on-high-alert-for-king-tide-over-next-several-days) (and [here](https://www.independent.co.uk/news/long_reads/puerto-rico-hurricane-maria-how-to-survive-climate-change-zika-virus-a8255896.html)). Our island’s response must come in two parts: a political determination to make every effort to mitigate the most dangerous effects of climate change before it’s too late; and a conscious effort to plan proactively for what we know is coming: sea-level rise, extreme weather patterns, and geopolitical and financial instability.
 

@@ -1,6 +1,6 @@
 ---
-title: How to make sure rideshare works for all
-date: '2018-06-20T01:59:42+00:00'
+title: Make rideshare work for all
+date: 2018-06-20
 ---
 Mayor Caldwell has vetoed the Council’s ban on surge pricing. This was the right move, in my opinion. Rideshare is transitional technology, en route to autonomy, more (not less) public transportation, and ultimately [smarter cities which are designed for pedestrians, not cars](/agenda).
 

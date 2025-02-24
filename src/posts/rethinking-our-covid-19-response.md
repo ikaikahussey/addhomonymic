@@ -1,6 +1,6 @@
 ---
 title: 'Rethinking our COVID-19 response'
-date: '2020-04-17T00:27:30+00:00'
+date: 2020-04-17
 status: publish
 ---
 [The Governor is considering massive pay cuts](https://www.hawaiinewsnow.com/2020/04/16/teachers-union-terrified-what-pay-cuts-would-do-hawaiis-teaching-force/) to government employees; [the Legislature will be quitting session early](https://www.thegardenisland.com/2020/04/15/opinion/foresight-not-hindsight-should-be-our-legislatures-goal/), voting primarily on construction projects; and meanwhile, [there have been 237,048 unemployment applications filed with the state](https://www.staradvertiser.com/2020/04/16/hawaii-news/more-money-to-flow-to-hawaiis-unemployed/). It’s not clear how the politics of the moment will end up, but there’s at least a sense in the air that without a major intervention, working people will bear both the human and financial burdens for this pandemic. Before votes are cast, let’s consider a few other options. Here’s a quick sketch of what that could look like – *imho*.

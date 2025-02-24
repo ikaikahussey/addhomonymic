@@ -6,13 +6,9 @@ author: ikaikahussey
 excerpt: ''
 type: post
 id: 12
-category:
-    - 'category 1'
 tag: []
 post_format: []
 ---
-
-![IMG_2194.png](http://ikaikahussey.files.wordpress.com/2018/07/a6276-img_2194.png)
 
 
 Honolulu has a parking shortage. Our problem has many roots: urban design decisions from forty years ago which separated work, schools, retail and housing, requiring each working adult to have their own vehicle; the high cost of land and housing, which leads to a congested rental market on crowded streets; major population growth coupled poor design choices; and uneven enforcement of our existing parking regulations. The result of these factors is an abundance of stress for already-overworked and overtaxed working people, problems for refuse collection and emergency vehicle access, and increasing incidents of inter-neighbor conflict and violence over parking.
@@ -28,9 +24,6 @@ I don’t believe that there is political support for this in Honolulu, but I th
 ### Creating a new parking market for Honolulu
 
 The availability of parking in our neighborhoods varies widely by time of day and day of the week. The spacious parking lots of shopping centers are completely empty all night, from about 9pm to 9am. In Kalihi Valley, where I live for example, there are empty shopping centers which have ample parking which could be leased for residential use in their off-hours.
-
-![Circled in red are areas with abundant parking in the off-hours.](http://ikaikahussey.files.wordpress.com/2018/07/9a431-screenshot2018-07-22at8.04.13am.png)
-
 
 Circled in red are areas with abundant parking in the off-hours.
 
@@ -52,7 +45,6 @@ The key is to correctly price the on-street parking permit. Thinking as an amate
 
 My proposal is a temporary solution. The long-term solution is better urban design, in which we encourage planning patterns that make live-work-play more feasible. Kakaako is a good model of this, but so is the older model of general stores within neighborhoods, like John’s Grocery in Liliha.
 
-![IMG_0229.jpg](http://ikaikahussey.files.wordpress.com/2018/07/5ef0b-img_0229.jpg)
 
 As we consider new communities – for instance, a refreshed Moiliili along a mauka transit corridor – we should be planning for pedestrians first and cars second. Our Land Use Ordinance should encourage the integration of retail and housing in mid-rise affordable apartment buildings. And we should anticipate that autonomous vehicles will probably not require dedicated parking at all, but will rather be used on a per-hire basis like Lyft or Uber.
 
