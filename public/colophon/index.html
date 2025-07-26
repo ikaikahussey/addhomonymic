@@ -1,1 +1,80 @@
-Produced using Eleventy. Hosted and distributed via Netlify.
+<!doctype html><html lang=""><head><meta charset="utf-8"><title>Add Homonym</title><meta name="description" content="Add Homonym is a website by Ikaika Hussey"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="shortcut icon" href="icons/favicon-32x32.png" sizes="32x32"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png"><link rel="apple-touch-icon" sizes="57x57" href="/static/img/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/static/img/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/static/img/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/static/img/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/static/img/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/static/img/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/static/img/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/static/img/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="/static/img/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/static/img/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png"><link rel="manifest" href="/manifest.json"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff"><link rel="stylesheet" type="text/css" href="/css.css"><link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"><style>/* Theme variables */
+  :root {
+    --background-color: #ffffff;
+    --text-color:       #111111;
+    --link-color:       #1a73e8;
+  }
+  [data-theme="dark"] {
+    --background-color: #121212;
+    --text-color:       #e0e0e0;
+    --link-color:       #8ab4f8;
+  }
+
+  /* Global theme application */
+  body {
+    background-color: var(--background-color);
+    color:            var(--text-color);
+    transition:       background-color 0.3s, color 0.3s;
+  }
+  a {
+    color: var(--link-color);
+  }
+  h1.post-title {
+    color: var(--text-color);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+  }</style></head><body class=""><div role="region" class="sidebar"><div class="container sidebar-sticky"><h1>Aloha and <span id="welina"></span>; welcome to <a href="/">Add Homonym</a>, a website by <a class="" style="display:inline;" href="https://ikaikahussey.com">Ikaika Hussey</a></h1><nav><ul><li><a href="https://ikaikahussey.com">About</a></li><li><a href="/colophon">Colophon</a></li><li><a href="#" id="theme-toggle-btn" class="sidebar-nav-item">This is set dynamically</a></li></ul></nav><div>&copy; 2025 Add Homonym. All rights reserved</div></div></div><div role="main" class="content container"><div class="page"><h1>Colophon</h1><p>Produced using <a href="https://www.11ty.dev">Eleventy</a>.</p><p>Hosted and distributed via <a href="https://netlify.com">Netlify</a>.</p></div></div><script type="text/javascript">// Array of different language greetings
+	const greetings = [
+		"Hello", // Default
+		"Hola",
+		"Bonjour",
+		"Ciao",
+		"Konnichiwa",
+		"Hallo",
+		"Olá",
+		"Salut",
+		"Hej",
+		"Здравствуйте",
+		"你好",
+	];
+	
+	// Get the <h1> element
+	const helloElement = document.getElementById("welina");
+	
+	// Function to change the greeting randomly
+	function changeGreeting() {
+		// Generate a random index
+		const randomIndex = Math.floor(Math.random() * greetings.length);
+		
+		// Update the text with a random greeting
+		helloElement.textContent = greetings[randomIndex];
+	}
+	
+	// Call the function to change the greeting on page load
+	changeGreeting();</script><script>document.addEventListener('DOMContentLoaded', function() {
+    const root = document.documentElement;
+    const btn  = document.getElementById('theme-toggle-btn');
+
+    // Determine initial theme: saved or system preference
+    const savedTheme  = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const initial     = savedTheme || (prefersDark ? 'dark' : 'light');
+
+    function applyTheme(theme) {
+      root.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+      // Update link text to reflect current mode
+      btn.textContent = theme === 'light' ? 'Dark' : 'Light';
+    }
+
+    // Apply theme on load
+    applyTheme(initial);
+
+    // Toggle on click
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      applyTheme(next);
+    });
+  });</script></body></html>

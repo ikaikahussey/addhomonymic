@@ -7,15 +7,18 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: Univers, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 300;
-  color: #515151;
+  color: black;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   line-height: 1.5;
   font-size: 16px;
 }
+a:-moz-any-link {text-decoration: none;}
+a:any-link {text-decoration: none;}
+
 @media (min-width: 38em) {
   html {
     font-size: 20px;
@@ -58,17 +61,15 @@ p, ul, ol, dl {
 
 /* Strong text */
 strong {
-  color: #303030;
-}
+  font-weight: bolder;}
 
 /* Links */
 a {
-  color: #333;
-  text-decoration: none;
+font-weight: bold;
 }
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .post-title a:hover,
 h1 a:hover,
@@ -79,11 +80,8 @@ a.sidebar-nav-item:focus {
 }
 article.post p a {
   color: inherit;
-  border-bottom: 2px solid red;
 }
-article.post p a:hover {
-  border-bottom-color: #000;
-}
+
 
 /* Horizontal rule */
 hr {
@@ -100,7 +98,7 @@ code, pre {
   background-color: #f9f9f9;
   padding: .25em .5em;
   border-radius: 3px;
-  color: #bf616a;
+  color: #000000;
 }
 pre {
   display: block;
@@ -254,6 +252,7 @@ td, th {
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
+  color: #000000;
 }
 
 /* Messages */
@@ -261,6 +260,7 @@ tbody tr:nth-child(odd) th {
 pre {
   padding: 1rem;
   background-color: #f9f9f9;
+  color: #000000;
 }
 .message {
   color: #717171;
@@ -293,6 +293,7 @@ pre {
 }
 .pagination-item:hover {
   background-color: #f5f5f5;
+  color: #000000;
 }
 
 /* Layout containers */
@@ -337,7 +338,6 @@ pre {
 }
 .related-posts li a:hover {
   text-decoration: none;
-  color: red;
 }
 
 /* Sidebar */
@@ -345,7 +345,7 @@ pre {
   padding: 2rem 1rem;
   text-align: left;
   background-color: #202020;
-  color: rgba(255,255,255,.5);
+  color: #ffffff;
 }
 .sidebar a {
   color: #fff;
@@ -411,49 +411,49 @@ pre {
 .theme-base-08 .content a,
 .theme-base-08 .related-posts li a:hover {
   background-color: #ac4142;
-  color: #ac4142;
+  color: #ffffff;
 }
 .theme-base-09 .sidebar,
 .theme-base-09 .content a,
 .theme-base-09 .related-posts li a:hover {
   background-color: #d28445;
-  color: #d28445;
+  color: #ffffff;
 }
 .theme-base-0a .sidebar,
 .theme-base-0a .content a,
 .theme-base-0a .related-posts li a:hover {
   background-color: #f4bf75;
-  color: #f4bf75;
+  color: #000000;
 }
 .theme-base-0b .sidebar,
 .theme-base-0b .content a,
 .theme-base-0b .related-posts li a:hover {
   background-color: #90a959;
-  color: #90a959;
+  color: #ffffff;
 }
 .theme-base-0c .sidebar,
 .theme-base-0c .content a,
 .theme-base-0c .related-posts li a:hover {
   background-color: #75b5aa;
-  color: #75b5aa;
+  color: #ffffff;
 }
 .theme-base-0d .sidebar,
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
   background-color: #6a9fb5;
-  color: #6a9fb5;
+  color: #ffffff;
 }
 .theme-base-0e .sidebar,
 .theme-base-0e .content a,
 .theme-base-0e .related-posts li a:hover {
   background-color: #aa759f;
-  color: #aa759f;
+  color: #ffffff;
 }
 .theme-base-0f .sidebar,
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   background-color: #8f5536;
-  color: #8f5536;
+  color: #ffffff;
 }
 
 /* Footnotes & corrections */
@@ -521,3 +521,555 @@ pre {
   );
   background-blend-mode: overlay;
 }
+
+
+
+
+
+
+
+/* Auto-generated extended background colors for all links within .posts */
+/* Extended colors from sidebar gradient - applied to all post links */
+
+:root {
+  --link-bg-color-1: #fedc00;
+  --link-bg-color-2: #fcb712;
+  --link-bg-color-3: #f7921e;
+  --link-bg-color-4: #e87f24;
+  --link-bg-color-5: #dd6227;
+  --link-bg-color-6: #dc4c27;
+  --link-bg-color-7: #ca3435;
+  --link-bg-color-8: #b82841;
+  --link-bg-color-9: #953751;
+  --link-bg-color-10: #364c88;
+  --link-bg-color-11: #16599d;
+  --link-bg-color-12: #02609e;
+  --link-bg-color-13: #0073a9;
+  --link-bg-color-14: #008aa4;
+  --link-bg-color-15: #239a87;
+  --link-bg-color-16: #7cba6d;
+  --link-bg-color-17: #becc2f;
+  --link-bg-color-18: #e0d81d;
+  --link-bg-color-19: #fdd006;
+  --link-bg-color-20: #fdc30c;
+  --link-bg-color-21: #faab16;
+  --link-bg-color-22: #f99e1a;
+  --link-bg-color-23: #f28c20;
+  --link-bg-color-24: #ed8522;
+  --link-bg-color-25: #e47525;
+  --link-bg-color-26: #e16c26;
+  --link-bg-color-27: #dd5b27;
+  --link-bg-color-28: #dc5327;
+  --link-bg-color-29: #d6442c;
+  --link-bg-color-30: #d03c30;
+  --link-bg-color-31: #c43039;
+  --link-bg-color-32: #be2c3d;
+  --link-bg-color-33: #ac2d46;
+  --link-bg-color-34: #a1324c;
+  --link-bg-color-35: #753e63;
+  --link-bg-color-36: #564576;
+  --link-bg-color-37: #2b508f;
+  --link-bg-color-38: #215596;
+  --link-bg-color-39: #0f5b9d;
+  --link-bg-color-40: #095e9e;
+  --link-bg-color-41: #0166a2;
+  --link-bg-color-42: #016da5;
+  --link-bg-color-43: #007ba7;
+  --link-bg-color-44: #0082a6;
+  --link-bg-color-45: #0c8f9a;
+  --link-bg-color-46: #179591;
+  --link-bg-color-47: #41a57e;
+  --link-bg-color-48: #5eaf76;
+  --link-bg-color-49: #92c058;
+  --link-bg-color-50: #a8c644;
+  --link-bg-color-51: #c9d029;
+  --link-bg-color-52: #d5d423;
+}
+
+.posts article:nth-of-type(1) a {
+  background-color: var(--link-bg-color-1);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(2) a {
+  background-color: var(--link-bg-color-2);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(3) a {
+  background-color: var(--link-bg-color-3);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(4) a {
+  background-color: var(--link-bg-color-4);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(5) a {
+  background-color: var(--link-bg-color-5);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(6) a {
+  background-color: var(--link-bg-color-6);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(7) a {
+  background-color: var(--link-bg-color-7);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(8) a {
+  background-color: var(--link-bg-color-8);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(9) a {
+  background-color: var(--link-bg-color-9);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(10) a {
+  background-color: var(--link-bg-color-10);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(11) a {
+  background-color: var(--link-bg-color-11);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(12) a {
+  background-color: var(--link-bg-color-12);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(13) a {
+  background-color: var(--link-bg-color-13);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(14) a {
+  background-color: var(--link-bg-color-14);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(15) a {
+  background-color: var(--link-bg-color-15);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(16) a {
+  background-color: var(--link-bg-color-16);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(17) a {
+  background-color: var(--link-bg-color-17);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(18) a {
+  background-color: var(--link-bg-color-18);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(19) a {
+  background-color: var(--link-bg-color-19);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(20) a {
+  background-color: var(--link-bg-color-20);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(21) a {
+  background-color: var(--link-bg-color-21);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(22) a {
+  background-color: var(--link-bg-color-22);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(23) a {
+  background-color: var(--link-bg-color-23);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(24) a {
+  background-color: var(--link-bg-color-24);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(25) a {
+  background-color: var(--link-bg-color-25);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(26) a {
+  background-color: var(--link-bg-color-26);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(27) a {
+  background-color: var(--link-bg-color-27);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(28) a {
+  background-color: var(--link-bg-color-28);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(29) a {
+  background-color: var(--link-bg-color-29);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(30) a {
+  background-color: var(--link-bg-color-30);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(31) a {
+  background-color: var(--link-bg-color-31);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(32) a {
+  background-color: var(--link-bg-color-32);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(33) a {
+  background-color: var(--link-bg-color-33);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(34) a {
+  background-color: var(--link-bg-color-34);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(35) a {
+  background-color: var(--link-bg-color-35);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(36) a {
+  background-color: var(--link-bg-color-36);
+  color: #ffffff; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(37) a {
+  background-color: var(--link-bg-color-37);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(38) a {
+  background-color: var(--link-bg-color-38);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(39) a {
+  background-color: var(--link-bg-color-39);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(40) a {
+  background-color: var(--link-bg-color-40);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(41) a {
+  background-color: var(--link-bg-color-41);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(42) a {
+  background-color: var(--link-bg-color-42);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(43) a {
+  background-color: var(--link-bg-color-43);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(44) a {
+  background-color: var(--link-bg-color-44);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(45) a {
+  background-color: var(--link-bg-color-45);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(46) a {
+  background-color: var(--link-bg-color-46);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(47) a {
+  background-color: var(--link-bg-color-47);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(48) a {
+  background-color: var(--link-bg-color-48);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(49) a {
+  background-color: var(--link-bg-color-49);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(50) a {
+  background-color: var(--link-bg-color-50);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(51) a {
+  background-color: var(--link-bg-color-51);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.posts article:nth-of-type(52) a {
+  background-color: var(--link-bg-color-52);
+  color: #000000; /* Will be overridden by contrast calculator */
+  padding: 2px 4px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover effects for all links in .posts */
+.posts a:hover {
+  opacity: 0.8 !important;
+  text-decoration: none !important;
+  transform: scale(1.02);
+}
+
+@keyframes subtleGlow {
+  0% { filter: brightness(1); }
+  50% { filter: brightness(1.1); }
+  100% { filter: brightness(1); }
+}
+
+.posts a {
+  animation: subtleGlow 3s ease-in-out infinite;
+  animation-delay: calc(var(--link-index, 0) * 0.2s);
+}
+
+/* End auto-generated color cycling */
